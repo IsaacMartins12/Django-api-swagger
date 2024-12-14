@@ -36,7 +36,7 @@ This repository demonstrates the development of a Django-based API with Swagger 
 
 2. Navigate to the project directory:
     ```bash
-    cd Django-api-swagger
+    cd api
     ```
 
 3. Create and activate a virtual environment:
@@ -67,11 +67,11 @@ This repository demonstrates the development of a Django-based API with Swagger 
 
 ## 📑 API Endpoints
 
-- **`POST /workers/`**: Create a new worker with salary details.
-- **`GET /workers/`**: Retrieve a list of all workers.
-- **`GET /workers/<id>/`**: Retrieve details of a specific worker by ID.
-- **`PUT /workers/<id>/`**: Update the details of a specific worker.
-- **`DELETE /workers/<id>/`**: Delete a worker by ID.
+- **`POST /employees/`**: Create a new worker with salary details.
+- **`GET /employees/`**: Retrieve a list of all workers.
+- **`GET /employees/<id>/`**: Retrieve details of a specific worker by ID.
+- **`PUT /employees/<id>/`**: Update the details of a specific worker.
+- **`DELETE /employees/<id>/`**: Delete a worker by ID.
 
 ## 🧑‍💻 Contribution
 
